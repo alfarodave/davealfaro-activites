@@ -1,0 +1,22 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 500px;
+    justify-content: center;
+    /*align-items: center;*/
+    /*justify-content: space-between;*/
+    /*justify-content: flex-end;*/
+    /*justify-content: flex-start;*/
+    /*justify-content: center;*/
+    /*flex-direction: column;*/
+    /*flex-wrap: wrap-reverse;*/
+    background-color: aquamarine;
+}
+
+.flex-container>div {
+    background-color: rgb(202, 203, 218);
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
